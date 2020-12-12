@@ -159,8 +159,8 @@ function unbracketTag(str) {
  *   'Thunderstruck' => 'THUNDERSTRUCK'
  *  'abcdefghijklmnopqrstuvwxyz' => 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
  */
-function convertToUpperCase(/* str */) {
-  throw new Error('Not implemented');
+function convertToUpperCase(str) {
+  return str.toUpperCase();
 }
 
 /**
@@ -181,7 +181,6 @@ function convertToUpperCase(/* str */) {
 function extractEmails(/* str */) {
   throw new Error('Not implemented');
 }
-
 /**
  * Returns the string representation of rectangle with specified width and height
  * using pseudograhic chars
